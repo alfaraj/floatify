@@ -1,0 +1,25 @@
+fieldset  {
+    position: relative;
+}
+fieldset label.floater {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 16px;
+    font-weight: unset;
+    color: darkGray;
+    cursor: text;
+    background: #fff;
+    padding: 0 5px;
+    margin-left: -5px;
+    transition: all 150ms cubic-bezier(0.4,0,0.2,1);
+}
+fieldset label.floated {
+    top: -7px;
+    font-size: 13px;
+    color: #006fcf;
+}
+
+.has-error fieldset label.floated {
+    color: #B42C01;
+}
